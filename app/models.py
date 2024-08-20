@@ -39,39 +39,4 @@ class StudentData(models.Model):
         return f"{self.first_name} {self.last_name} - {self.subject}"
 
 
-# class School(models.Model):
-#     school_name1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
 
-
-# class Class(models.Model):
-#     class_name1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-
-
-# class AssessmentArea(models.Model):
-#     assessment_area1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-
-
-# class Student(models.Model):
-#     first_name1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-#     last_name1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-
-
-# class Answers(models.Model):
-#     answers1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-
-
-# class Awards(models.Model):
-#     award1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-
-
-# class Subject(models.Model):
-#     subject1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-#     average_score1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-
-
-# class Summary(models.Model):
-#     school1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-#     sydney_participants1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-#     sydney_percentile1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-#     assessment_areas1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
-#     award1 = models.ForeignKey(StudentData, on_delete=models.CASCADE)
